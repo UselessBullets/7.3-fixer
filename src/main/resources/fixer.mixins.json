@@ -6,7 +6,8 @@
   "mixins": [
     "ChunkCoordinateMixin",
     "EntityPaintingMixin",
-    "PacketStatisticMixin"
+    "PacketStatisticMixin",
+    "SpawnerMobsMixin"
   ],
   "client": [
     "ChunkProviderClientMixin"
