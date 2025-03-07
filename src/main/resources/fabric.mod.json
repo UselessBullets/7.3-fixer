@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "fixer",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "BTA Fixes",
   "description": "This mod aims to help new BTA modders.",
   "authors": [
     "Turnip Labs"
@@ -19,20 +19,20 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-			"turniplabs.examplemod.ExampleMod"
+			"useless.fixer.FixerMod"
     ],
 		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"useless.fixer.FixerMod"
 		],
 		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"useless.fixer.FixerMod"
 		],
 		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
+			"useless.fixer.FixerMod"
 		]
 	},
   "mixins": [
-      "examplemod.mixins.json"
+      "fixer.mixins.json"
   ],
 
   "depends": {
