@@ -11,6 +11,8 @@
   ],
   "client": [
     "ChunkProviderClientMixin"
+    "ChunkProviderClientMixin",
+    "NetworkManagerMixin"
   ],
   "injectors": {
     "defaultRequire": 1
