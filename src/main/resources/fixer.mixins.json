@@ -4,10 +4,12 @@
   "package": "useless.fixer.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "ChunkCoordinateMixin",
     "EntityPaintingMixin",
     "PacketStatisticMixin"
   ],
   "client": [
+    "ChunkProviderClientMixin"
   ],
   "injectors": {
     "defaultRequire": 1
