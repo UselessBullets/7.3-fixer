@@ -5,6 +5,7 @@
   "compatibilityLevel": "JAVA_8",
   "mixins": [
     "ChunkCoordinateMixin",
+    "BlockLogicDoorMixin",
     "EntityPaintingMixin",
     "PacketStatisticMixin",
     "SpawnerMobsMixin"
@@ -14,7 +15,10 @@
     "MinecraftMixin",
     "NetworkManagerMixin",
     "PacketBlockRegionUpdateMixin",
-    "PacketHandlerClientMixin"
+    "PacketHandlerClientMixin",
+    "BlockModelChestMixin",
+    "BlockModelDispatcherMixin",
+    "RenderBlocksMixin"
   ],
   "injectors": {
     "defaultRequire": 1
