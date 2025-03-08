@@ -4,6 +4,7 @@
   "package": "useless.fixer.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "BlockLogicDoorMixin",
     "EntityPaintingMixin",
     "PacketStatisticMixin"
   ],
