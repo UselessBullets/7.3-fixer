@@ -9,6 +9,7 @@
     "PacketStatisticMixin"
   ],
   "client": [
+    "BlockModelDispatcherMixin"
   ],
   "injectors": {
     "defaultRequire": 1
