@@ -11,7 +11,10 @@
   ],
   "client": [
     "ChunkProviderClientMixin",
-    "NetworkManagerMixin"
+    "MinecraftMixin",
+    "NetworkManagerMixin",
+    "PacketBlockRegionUpdateMixin",
+    "PacketHandlerClientMixin"
   ],
   "injectors": {
     "defaultRequire": 1
