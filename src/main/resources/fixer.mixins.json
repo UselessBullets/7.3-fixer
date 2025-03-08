@@ -9,7 +9,9 @@
     "PacketStatisticMixin"
   ],
   "client": [
-    "BlockModelDispatcherMixin"
+    "BlockModelChestMixin",
+    "BlockModelDispatcherMixin",
+    "RenderBlocksMixin"
   ],
   "injectors": {
     "defaultRequire": 1
