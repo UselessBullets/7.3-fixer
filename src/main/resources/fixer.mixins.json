@@ -4,17 +4,27 @@
   "package": "useless.fixer.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "ChunkCoordinateMixin",
     "BlockLogicDoorMixin",
     "EntityPaintingMixin",
-    "PacketStatisticMixin"
+    "PacketStatisticMixin",
+    "SpawnerMobsMixin"
   ],
   "client": [
     "BlockModelBasketMixin",
+    "ChunkProviderClientMixin",
+    "MinecraftMixin",
+    "NetworkManagerMixin",
+    "PacketBlockRegionUpdateMixin",
+    "PacketHandlerClientMixin",
     "BlockModelChestMixin",
     "BlockModelDispatcherMixin",
     "RenderBlocksMixin"
   ],
   "injectors": {
     "defaultRequire": 1
-  }
+  },
+  "server": [
+    "ChunkProviderServerMixin"
+  ]
 }
