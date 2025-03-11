@@ -9,6 +9,7 @@
     "PacketStatisticMixin"
   ],
   "client": [
+    "BlockModelBasketMixin",
     "BlockModelChestMixin",
     "BlockModelDispatcherMixin",
     "RenderBlocksMixin"
