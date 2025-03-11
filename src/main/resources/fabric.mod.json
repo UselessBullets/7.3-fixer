@@ -20,16 +20,7 @@
   "entrypoints": {
     "main": [
 			"useless.fixer.FixerMod"
-    ],
-		"beforeGameStart": [
-			"useless.fixer.FixerMod"
-		],
-		"afterGameStart": [
-			"useless.fixer.FixerMod"
-		],
-		"recipesReady": [
-			"useless.fixer.FixerMod"
-		]
+    ]
 	},
   "mixins": [
       "fixer.mixins.json"
