@@ -11,6 +11,7 @@
     "SpawnerMobsMixin"
   ],
   "client": [
+    "BlockModelBasketMixin",
     "ChunkProviderClientMixin",
     "MinecraftMixin",
     "NetworkManagerMixin",
