@@ -28,7 +28,6 @@ public abstract class PacketBlockRegionUpdateMixin implements IBuffer {
 	@Inject(method = "read", at = @At(value = "INVOKE", target = "Ljava/io/DataInputStream;readFully([B)V", shift = At.Shift.AFTER), cancellable = true)
 	public void getArray(DataInputStream dis, CallbackInfo ci, @Local(name = "deflatedBuffer") byte[] deflatedBuffer) throws IOException {
 		Inflater inflater = new Inflater();
-		System.out.println(this.chunkSize);
 		try {
 			inflater.setInput(deflatedBuffer);
 			this.chunk = getFixedByteArray();
