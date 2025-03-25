@@ -8,7 +8,9 @@
     "ChunkCoordinateMixin",
     "EntityPaintingMixin",
     "PacketStatisticMixin",
-    "SpawnerMobsMixin"
+    "SpawnerMobsMixin",
+    "TileEntityBasketMixin",
+    "TileEntityFurnaceMixin"
   ],
   "client": [
     "BlockModelBasketMixin",
