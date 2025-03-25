@@ -20,7 +20,8 @@
     "PacketBlockRegionUpdateMixin",
     "PacketHandlerClientMixin",
     "PlayerControllerMixin",
-    "RenderBlocksMixin"
+    "RenderBlocksMixin",
+    "ScreenFlagEditorMixin"
   ],
   "injectors": {
     "defaultRequire": 1
