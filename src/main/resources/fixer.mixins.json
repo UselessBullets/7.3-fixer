@@ -24,8 +24,12 @@
     "PacketBlockRegionUpdateMixin",
     "PacketHandlerClientMixin",
     "PlayerControllerMixin",
+    "PopupScreenMixin",
     "RenderBlocksMixin",
-    "ScreenFlagEditorMixin"
+    "ScreenAddServerMixin",
+    "ScreenChatMixin",
+    "ScreenFlagEditorMixin",
+    "ScreenLabelEditorMixin"
   ],
   "injectors": {
     "defaultRequire": 1
