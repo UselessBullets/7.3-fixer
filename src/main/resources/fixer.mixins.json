@@ -10,6 +10,7 @@
     "EntityDispatcherMixin",
     "EntityPaintingMixin",
     "PacketStatisticMixin",
+    "PathFinderMixin",
     "SpawnerMobsMixin",
     "TileEntityBasketMixin",
     "TileEntityFurnaceMixin"
