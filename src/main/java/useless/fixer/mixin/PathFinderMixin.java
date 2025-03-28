@@ -29,7 +29,7 @@ public class PathFinderMixin {
 
 		if(entity instanceof MobCreeper){
 			if(Block.hasLogicClass(Blocks.blocksList[k1], BlockLogicTrapDoor.class)){
-				boolean isTopTrapdoor = worldSource.getBlockMetadata(x1, y1, z1) == 9;
+				boolean isTopTrapdoor = worldSource.getBlockMetadata(x1, y1, z1) >= 9 && worldSource.getBlockMetadata(x1, y1, z1) <= 11;
 				if(isTopTrapdoor){
 					cir.setReturnValue(1);
 					return;
