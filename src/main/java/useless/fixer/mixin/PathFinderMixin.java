@@ -26,10 +26,9 @@ public class PathFinderMixin {
 	@Inject(method = "isFree", at = @At(value = "INVOKE", target = "Lnet/minecraft/core/block/Block;getMaterial()Lnet/minecraft/core/block/material/Material;", shift = At.Shift.BEFORE), cancellable = true)
 	void isFree(Entity entity, int x, int y, int z, Node pathpoint, CallbackInfoReturnable<Integer> cir, @Local(name = "x1") int x1, @Local(name = "y1") int y1, @Local(name = "z1") int z1){
 		int k1 = worldSource.getBlockId(x1, y1, z1);
-
 		if(entity instanceof MobCreeper){
 			if(Block.hasLogicClass(Blocks.blocksList[k1], BlockLogicTrapDoor.class)){
-				boolean isTopTrapdoor = worldSource.getBlockMetadata(x1, y1, z1) >= 9 && worldSource.getBlockMetadata(x1, y1, z1) <= 11;
+				boolean isTopTrapdoor = worldSource.getBlockMetadata(x1, y1, z1) >= 8 && worldSource.getBlockMetadata(x1, y1, z1) <= 11;
 				if(isTopTrapdoor){
 					cir.setReturnValue(1);
 					return;
