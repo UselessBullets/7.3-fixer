@@ -15,6 +15,7 @@
     "TileEntityFurnaceMixin"
   ],
   "client": [
+    "BlockLogicPistonBaseSteelMixin",
     "BlockModelBasketMixin",
     "BlockModelChestMixin",
     "BlockModelDispatcherMixin",
